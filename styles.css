@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ 
+html {
+  scroll-behavior: smooth;
+  transition: all 0.35s ease 0s;
+  background-color:#ecf0f1;
+}
+body{
+  margin:0;
+  padding:0;
+}
+ 
+li,a{
+  font-family: "montserrat",sans-serif;
+  font-weight:700;
+  align-items: center;
+  text-align:right;
+  font-size:16px;
+  color:red;
+  text-decoration: none;
+ 
+}
+header{
+  display:flex; 
+  justify-content: space-between;
+  align-items: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:30px 10%;
+  box-sizing:border-box;
+  background-color: transparent;
+  z-index: 100;
+}
+    .home-sci{
+position: absolute;
+bottom: 40px;
+width: 170px;
+background-color: brown;
+    }  
+.prof{
+  margin-right:auto;
+  display:flex;
+ 
+}
+.prof img:hover{
+  cursor:pointer;
+}
+.prof h5{
+  color:#ecf0f1;
+  font-size:16px;
+ 
+}
+.prof h5:hover{
+  color: rgba(0,136,169,0.85);
+  transition: all 0.35s ease 0s;
+ 
+}
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding:0 3rem;
+}
+.nav_links li a{
+  transition: all 0.35s ease 0s;
+}
+.nav_links li a:hover{
+  color:#0088a9;
+}
+button{
+  padding:9px 25px;
+  background-color: rgba(0,136,169,1);
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+  transition: all 0.35s ease 0s;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.85);
+}
+.text{
+  color:#ecf0f1;
+}
+.text h6{
+  font-size: medium;
+}
+.text p{
+  padding: 0 15rem;
+  justify-self: center;
+} 
+#page_top{
+  height:90vh;
+}
+.socials{
+  display:flex; 
+  justify-content:center;
+  align-items:center;
+  padding:0 0 0 0;
+  margin-bottom:2rem;
+  margin-top:-1rem;
+}
+#socials ion-icon{
+  margin-left:10px;
+}
+#socials h4{
+  color:rgba(0,136,169,0.85);
+  font-size:20px;
+}
+ion-icon{
+  color:white;
+}
+footer{
+  color:#012f3a;
+  opacity:0.7;
+}
+#socials h4:hover{
+  color:#ecf0f1;
+  transition: all 0.35s ease 0s;
+}
+.socials ion-icon:hover{
+  color:rgba(0,136,169,0.85);
+  transition: all 0.35s ease 0s;
+}
