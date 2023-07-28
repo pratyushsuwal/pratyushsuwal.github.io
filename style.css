@@ -9,7 +9,7 @@ body{
   padding:0;
 }
  
-.li,a{
+li,a{
   font-family: "montserrat",sans-serif;
   font-weight:700;
   align-items: center;
@@ -19,7 +19,7 @@ body{
   text-decoration: none;
  
 }
-.header{
+header{
   display:flex; 
   justify-content: space-between;
   align-items: right;
