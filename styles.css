@@ -1,126 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
- 
-html {
-  scroll-behavior: smooth;
-  transition: all 0.35s ease 0s;
-  background-color:black;
-}
-body{
-  margin:0;
-  padding:0;
-}
- 
-li,a{
-  font-family: "montserrat",sans-serif;
-  font-weight:700;
-  align-items: center;
-  text-align:right;
-  font-size:16px;
-  color:red;
-  text-decoration: none;
- 
-}
-header{
-  display:flex; 
-  justify-content: space-between;
-  align-items: right;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding:30px 10%;
-  box-sizing:border-box;
-  background-color: black;
-  z-index: 100;
-}
-    .home-sci{
-position: absolute;
-bottom: 40px;
-width: 170px;
-background-color: brown;
-    }  
-.prof{
-  margin-right:auto;
-  display:flex;
- 
-}
-.prof img:hover{
-  cursor:pointer;
-}
-.prof h5{
-  color:#ecf0f1;
-  font-size:16px;
- 
-}
-.prof h5:hover{
-  color: rgba(0,136,169,0.85);
-  transition: all 0.35s ease 0s;
- 
-}
-.nav_links{
-  list-style:none;
-}
-.nav_links li{
-  display: inline-block;
-  padding:0 3rem;
-}
-.nav_links li a{
-  transition: all 0.35s ease 0s;
-}
-.nav_links li a:hover{
-  color:#0088a9;
-}
-button{
-  padding:9px 25px;
-  background-color: rgba(0,136,169,1);
-  border:none;
-  border-radius:50px;
-  cursor:pointer;
-  transition: all 0.35s ease 0s;
-}
-button:hover{
-  background-color: rgba(0,136,169,0.85);
-}
-.text{
-  color:#ecf0f1;
-}
-.text h6{
-  font-size: medium;
-}
-.text p{
-  padding: 0 15rem;
-  justify-self: center;
-} 
-#page_top{
-  height:90vh;
-}
-.socials{
-  display:flex; 
-  justify-content:center;
-  align-items:center;
-  padding:0 0 0 0;
-  margin-bottom:2rem;
-  margin-top:-1rem;
-}
-#socials ion-icon{
-  margin-left:10px;
-}
-#socials h4{
-  color:rgba(0,136,169,0.85);
-  font-size:20px;
-}
-ion-icon{
-  color:white;
-}
-footer{
-  color:#012f3a;
-  opacity:0.7;
-}
-#socials h4:hover{
-  color:#ecf0f1;
-  transition: all 0.35s ease 0s;
-}
-.socials ion-icon:hover{
-  color:rgba(0,136,169,0.85);
-  transition: all 0.35s ease 0s;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraordinary Website</title>
+    <style>
+        /* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Create a full-screen hero section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(to bottom, #f36, #f06);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Style the heading in the hero section */
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        /* Create a stylish navigation bar */
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        /* Create a visually appealing section with some content */
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .section p {
+            font-size: 1.2rem;
+        }
+
+        /* Add a call-to-action button */
+        .cta-button {
+            background-color: #f36;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #f06;
+        }
+
+        /* Add a footer with some information */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Add some animations to elements */
+        .animate-fade-in {
+            animation: fadeIn 1s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1 class="animate-fade-in">Welcome to Our Extraordinary Website</h1>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="section">
+        <h2 class="animate-fade-in">Discover Our Awesome Features</h2>
+        <p class="animate-fade-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac lacus a nisi tincidunt dignissim. Maecenas ac elit eu risus consectetur congue.</p>
+        <button class="cta-button animate-fade-in">Get Started</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Extraordinary Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
