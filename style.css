@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 html {
   scroll-behavior: smooth;
   transition: all 0.35s ease 0s;
-  background-color:black;
+  background-color:#ecf0f1;
 }
 body{
   margin:0;
   padding:0;
 }
- 
+.hero{
+background-image: ll.png;
+}
+
 li,a{
   font-family: "montserrat",sans-serif;
   font-weight:700;
   align-items: center;
-  text-align:right;
+  text-align: right;
   font-size:16px;
-  color:red;
+  color: marron;
   text-decoration: none;
- 
+  
 }
 header{
   display:flex; 
@@ -26,18 +30,14 @@ header{
   position: fixed;
   top: 0;
   left: 0;
+  text-align: center;
   width: 100%;
   padding:30px 10%;
   box-sizing:border-box;
-  background-color: black;
+  background-color: transparent;
   z-index: 100;
 }
-    .home-sci{
-position: absolute;
-bottom: 40px;
-width: 170px;
-background-color: brown;
-    }  
+
 .prof{
   margin-right:auto;
   display:flex;
@@ -49,12 +49,12 @@ background-color: brown;
 .prof h5{
   color:#ecf0f1;
   font-size:16px;
- 
+  
 }
 .prof h5:hover{
   color: rgba(0,136,169,0.85);
   transition: all 0.35s ease 0s;
- 
+  
 }
 .nav_links{
   list-style:none;
