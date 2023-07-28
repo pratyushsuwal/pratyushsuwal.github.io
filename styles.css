@@ -1,125 +1,84 @@
-import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
- 
-html {
-  scroll-behavior: smooth;
-  transition: all 0.35s ease 0s;
-  background-color:white;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-body{
-  margin:0;
-  padding:0;
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
- 
-li,a{
-  font-family: "montserrat",sans-serif;
-  font-weight:700;
-  align-items: center;
-  text-align:right;
-  font-size:16px;
-  color:red;
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
   text-decoration: none;
- 
 }
-header{
-  display:flex; 
-  justify-content: space-between;
-  align-items: right;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding:30px 10%;
-  box-sizing:border-box;
-  background-color: white;
-  z-index: 100;
+
+section {
+  padding: 50px;
 }
-    .home-sci{
-position: absolute;
-bottom: 40px;
-width: 170px;
-background-color: brown;
-    }  
-.prof{
-  margin-right:auto;
-  display:flex;
- 
+
+#hero {
+  background-image: url('path/to/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
 }
-.prof img:hover{
-  cursor:pointer;
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
 }
-.prof h5{
-  color:#ecf0f1;
-  font-size:16px;
- 
+
+.hero-content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
 }
-.prof h5:hover{
-  color: rgba(0,136,169,0.85);
-  transition: all 0.35s ease 0s;
- 
+
+.hero-content p {
+  font-size: 20px;
 }
-.nav_links{
-  list-style:none;
-}
-.nav_links li{
+
+.cta-button {
   display: inline-block;
-  padding:0 3rem;
+  background-color: #ff7f50;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
 }
-.nav_links li a{
-  transition: all 0.35s ease 0s;
+
+.cta-button:hover {
+  background-color: #ff6347;
 }
-.nav_links li a:hover{
-  color:#0088a9;
+
+#about {
+  background-color: #f9f9f9;
+  text-align: center;
 }
-button{
-  padding:9px 25px;
-  background-color: rgba(0,136,169,1);
-  border:none;
-  border-radius:50px;
-  cursor:pointer;
-  transition: all 0.35s ease 0s;
+
+#about h2 {
+  font-size: 36px;
 }
-button:hover{
-  background-color: rgba(0,136,169,0.85);
-}
-.text{
-  color:#ecf0f1;
-}
-.text h6{
-  font-size: medium;
-}
-.text p{
-  padding: 0 15rem;
-  justify-self: center;
-} 
-#page_top{
-  height:90vh;
-}
-.socials{
-  display:flex; 
-  justify-content:center;
-  align-items:center;
-  padding:0 0 0 0;
-  margin-bottom:2rem;
-  margin-top:-1rem;
-}
-#socials ion-icon{
-  margin-left:10px;
-}
-#socials h4{
-  color:rgba(0,136,169,0.85);
-  font-size:20px;
-}
-ion-icon{
-  color:white;
-}
-footer{
-  color:#012f3a;
-  opacity:0.7;
-}
-#socials h4:hover{
-  color:#ecf0f1;
-  transition: all 0.35s ease 0s;
-}
-.socials ion-icon:hover{
-  color:rgba(0,136,169,0.85);
-  transition: all 0.35s ease 0s;
+
+/* Add more styling for other sections and elements as needed */
