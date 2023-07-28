@@ -3,7 +3,7 @@ import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display
 html {
   scroll-behavior: smooth;
   transition: all 0.35s ease 0s;
-  background-color:black;
+  background-color:white;
 }
 body{
   margin:0;
@@ -30,7 +30,7 @@ header{
   width: 100%;
   padding:30px 10%;
   box-sizing:border-box;
-  background-color: black;
+  background-color: white;
   z-index: 100;
 }
     .home-sci{
